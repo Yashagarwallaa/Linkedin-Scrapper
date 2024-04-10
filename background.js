@@ -1,6 +1,7 @@
 let currIndex = 0;
-let Profile_List = ['https://www.linkedin.com/in/anurag-debnath-adn/','https://www.linkedin.com/in/arshgoyal/',
-'https://www.linkedin.com/in/shreel-bansal-a0a8b81b7/'];
+let Profile_List = ['https://www.linkedin.com/in/pratham02/',
+'https://www.linkedin.com/in/arnab-ray-choudhury-03535b267/',
+'https://www.linkedin.com/in/gss117/'];
 
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
