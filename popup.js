@@ -36,7 +36,7 @@ async function getCurrentTab(){
           if (response.ok) {
             const data = await response.json();
             console.log("Data scraped:", data);
-            // Process the scraped data as needed
+            
         } else {
             console.error("Failed to scrape data:", response.statusText);
         }
@@ -47,26 +47,4 @@ async function getCurrentTab(){
 }}
 getCurrentTab();
 
-// function getName(){
-//     chrome.runtime.onMessage.addListener((message,sender, sendResponse)=>{
-//         console.log("Message received in popup.js");
-//         console.log('Name:',message.data);
-//     })
-// }
 
-
-// class="khASWAMAqDUIfqognUbCjfIAEAvZPgtM full- width" // about
-
-
-// class="text-heading-xlarge inline t-24 v-align-middle break-words" //name
-
-// class="text-body-medium break-words" // bio
-
-// class = "text-body-small inline t-black--light break-words" // location
-
-// span t-black--light t-bold // connection 
-
-// class="fwCAgpnvgnesavuoYSRBLHGskfWOFubhfwQac pvs-header__optional-link text-body-small" span aria-hidden="true" 
-
-// class="text-body-small t-black--light inline-block" span class="t-bold" 
-// followers
