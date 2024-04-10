@@ -1,0 +1,26 @@
+{
+    "name" : "LinkedIN Scrapper",
+    "description" : "Imports details about a LinkedIN User",
+    "version" : "1.0",
+    "manifest_version" : 3,
+    "background" :{
+        "service_worker" : "background.js"
+    },
+    "action" :{
+        "default_popup" :"popup.html"
+    },
+  
+    "content_scripts": [
+        {
+            "matches": ["https://www.linkedin.com/in/*"],
+            "js": ["contentScript.js"]
+        }
+    ],
+
+    "permissions": ["storage", "declarativeContent", "activeTab", "scripting","tabs","cookies","https://www.linkedin.com/*"
+],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+      ]
+}

@@ -1,0 +1,23 @@
+.btn{
+    display:none;
+    width: 15rem;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-select-profile{
+    width: 6rem;
+}
+.btn-import-data{
+    width: 6rem;
+}
+.btn-add-profile{
+    width: 6rem;
+}
+h2{
+    text-align: center;
+    width: 5rem;
+}
+
+
