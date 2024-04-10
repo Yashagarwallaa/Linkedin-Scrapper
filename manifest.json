@@ -16,8 +16,13 @@
             "js": ["contentScript.js"]
         }
     ],
-
-    "permissions": ["storage", "declarativeContent", "activeTab", "scripting","tabs","cookies","https://www.linkedin.com/*"
+    "icons" : {
+        "16" : "/images/linkedin-scrapper-icon-1.png",
+        "32" : "/images/linkedin-scrapper-icon-2.png",
+        "48" : "/images/linkedin-scrapper-icon-3.png",
+        "128" : "/images/linkedin-scrapper-icon-4.png"
+    },
+    "permissions": ["storage", "declarativeContent", "activeTab", "scripting","tabs","cookies"
 ],
     "host_permissions": [
         "http://*/*",
